@@ -1,0 +1,6 @@
+name,email,password,expectedResult
+Khai,khai@test.com,123456789,success
+,khai@test.com,123456789,error
+Khai,,123456789,error
+Khai,khai@test.com,,error
+,,, 

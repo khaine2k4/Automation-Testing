@@ -1,0 +1,5 @@
+username,email,fullName,phone,address,role,expectedResult
+testuser1,test1@example.com,Test User 1,0123456789,123 Main St,2,success
+,test2@example.com,Test User 2,0123456789,123 Main St,2,error
+testuser3,,Test User 3,0123456789,123 Main St,2,error
+testuser4,test4@example.com,,0123456789,123 Main St,2,error 
