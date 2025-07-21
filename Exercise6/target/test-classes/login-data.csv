@@ -1,0 +1,7 @@
+email,password,expectedResult
+khailamtest@gmail.com,123456789,success
+khailamtest@gmail.com,wrongpass,error
+wrongemail@gmail.com,123456789,error
+,123456789,error
+khailamtest@gmail.com,,error
+,,
